@@ -1,0 +1,14 @@
+.footer {
+	grid-area: 5/1/-1/-1;
+	width: 100vw;
+	height: 100px;
+	display: flex;
+	align-self: flex-end;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--color-blue);
+}
+
+.footer p {
+	color: var(--color-grey-100);
+}

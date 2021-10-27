@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap");
+:root {
+	--color-white: rgb(240, 238, 238);
+	--color-black: #112131;
+	--color-grey-100: #f8f9fc;
+	--color-grey-200: #dee3ed;
+	--color-grey-300: #c2c9d6;
+	--color-grey-400: #e8e8e8;
+	--color-grey-500: #5e636e;
+	--color-grey-600: #2f3237;
+	--color-grey-700: #1d1e20;
+	--color-blue: #2e6a94;
+	--color-adjacent-blue: #c4d4df;
+	/* --color-blue: #58797f;
+	--color-adjacent-blue: #0f7686; */
+	--color-chart-teal: #00ffbf;
+	--color-chart-purple: #8000ff;
+	--color-chart-lightpurple: #cc99ff;
+	--color-chart-orange: #ffbf00;
+	--color-chart-red: #fb55a8;
+	--color-chart-blue: #0099ff;
+	--color-chart-yellow: #ffff99;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+body {
+	font-family: "Roboto", "Helvetica Neue", "Arial",
+		sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--color-grey-100);
+}
+
+.App {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 25% 75%;
+	grid-template-rows: 15% 8% auto 10%;
+	overflow-x: hidden;
+}
