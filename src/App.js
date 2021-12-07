@@ -109,6 +109,7 @@ function App() {
 		console.log(filter.includes(checked));
 	};
 	const handleModal = (i) => {
+		//console.log(i);
 		setIsOpen(true);
 		setIsSelected(i);
 	};
